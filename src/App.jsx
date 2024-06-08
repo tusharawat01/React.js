@@ -4,6 +4,7 @@ import './App.css'
 import Button from "./component/reusableComponent/Button.jsx";
 import Calculator from "./component/calculator/Calculator.jsx";
 import CheckboxList from "./component/checkbox/Checkbox.jsx";
+import LocalStorage from "./component/localStorage/LocalStorage.jsx";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     {/* <Password /> */}
     {/* <Register /> */}
     {/* <Calculator /> */}
-    <CheckboxList />
+    {/* <CheckboxList /> */}
+    <LocalStorage />
     </>
   )
 }
