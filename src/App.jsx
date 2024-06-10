@@ -5,6 +5,8 @@ import Button from "./component/reusableComponent/Button.jsx";
 import Calculator from "./component/calculator/Calculator.jsx";
 import CheckboxList from "./component/checkbox/Checkbox.jsx";
 import LocalStorage from "./component/localStorage/LocalStorage.jsx";
+import ThemedComponent from "./component/Context/ThemedComponent.jsx";
+import { ThemeProvider } from "./component/Context/Context.jsx";
 
 function App() {
   return (
@@ -13,7 +15,11 @@ function App() {
     {/* <Register /> */}
     {/* <Calculator /> */}
     {/* <CheckboxList /> */}
-    <LocalStorage />
+    {/* <LocalStorage /> */}
+    {/* <ThemeProvider >
+    <ThemedComponent />
+    </ThemeProvider> */}
+    
     </>
   )
 }
