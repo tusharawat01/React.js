@@ -7,6 +7,8 @@ import CheckboxList from "./component/checkbox/Checkbox.jsx";
 import LocalStorage from "./component/localStorage/LocalStorage.jsx";
 import ThemedComponent from "./component/Context/ThemedComponent.jsx";
 import { ThemeProvider } from "./component/Context/Context.jsx";
+import Counter from "./component/useRefHook/clickCounter.jsx";
+import Stopwatch from "./component/useRefHook/stopwatch.jsx";
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
     {/* <ThemeProvider >
     <ThemedComponent />
     </ThemeProvider> */}
-    
+    {/* <Counter /> */}
+    <Stopwatch />
     </>
   )
 }
